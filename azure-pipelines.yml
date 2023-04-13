@@ -11,7 +11,7 @@ resources:
 variables:
 
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'jservicev-d'
+  dockerRegistryServiceConnection: 'jservice-d'
   imageRepository: 'jeffersonmetaagereactuitwo'
   containerRegistry: 'jacrpoor0412e.azurecr.io'
   dockerfilePath: '**/Dockerfile'
