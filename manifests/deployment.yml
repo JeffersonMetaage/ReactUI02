@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: jeffersonmetaagereactuitwo 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jeffersonmetaagereactuitwo
+  template:
+    metadata:
+      labels:
+        app: jeffersonmetaagereactuitwo 
+    spec:
+      containers:
+        - name: jeffersonmetaagereactuitwo 
+          image: jacrpoor0412e.azurecr.io/jeffersonmetaagereactuitwo
+          ports:
+          - containerPort: 3000
